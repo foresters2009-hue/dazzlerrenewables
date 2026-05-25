@@ -1,0 +1,58 @@
+[
+  {
+    "title": "On-site roof walkthrough",
+    "source": "1746062786773.MOV",
+    "poster": "assets/gallery/videos/01-1746062786773-poster.webp",
+    "preview": "assets/gallery/videos/01-1746062786773-preview.mp4",
+    "duration": 114.333333,
+    "sourceBytes": 216848871,
+    "previewBytes": 2408889,
+    "posterBytes": 72786,
+    "width": 1920,
+    "height": 1080,
+    "previewWidth": 1280,
+    "previewHeight": 720
+  },
+  {
+    "title": "Solar roof pass 01",
+    "source": "1747352072525(1).MOV",
+    "poster": "assets/gallery/videos/04-1747352072525-1-poster.webp",
+    "preview": "assets/gallery/videos/04-1747352072525-1-preview.mp4",
+    "duration": 27.2,
+    "sourceBytes": 51654057,
+    "previewBytes": 5051331,
+    "posterBytes": 104636,
+    "width": 1920,
+    "height": 1080,
+    "previewWidth": 1280,
+    "previewHeight": 720
+  },
+  {
+    "title": "Compact drone roof view",
+    "source": "dji_fly_20250813_121216_0074_1755108538861_quickshot.MP4",
+    "poster": "assets/gallery/videos/08-dji-fly-20250813-121216-0074-1755108538861-quickshot-poster.webp",
+    "preview": "assets/gallery/videos/08-dji-fly-20250813-121216-0074-1755108538861-quickshot-preview.mp4",
+    "duration": 6.740067,
+    "sourceBytes": 22950554,
+    "previewBytes": 519053,
+    "posterBytes": 60932,
+    "width": 3840,
+    "height": 2160,
+    "previewWidth": 1280,
+    "previewHeight": 720
+  },
+  {
+    "title": "Mastershots neighborhood flyover",
+    "source": "dji_fly_20250927_191012_0118_1759021377511_mastershots.mp4",
+    "poster": "assets/gallery/videos/09-dji-fly-20250927-191012-0118-1759021377511-mastershots-poster.webp",
+    "preview": "assets/gallery/videos/09-dji-fly-20250927-191012-0118-1759021377511-mastershots-preview.mp4",
+    "duration": 120.753967,
+    "sourceBytes": 1396496894,
+    "previewBytes": 2151366,
+    "posterBytes": 66778,
+    "width": 3840,
+    "height": 2160,
+    "previewWidth": 1280,
+    "previewHeight": 720
+  }
+]
