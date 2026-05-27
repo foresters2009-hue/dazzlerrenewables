@@ -3,6 +3,7 @@ const nav = document.querySelector("[data-nav]");
 const navToggle = document.querySelector("[data-nav-toggle]");
 const form = document.querySelector("[data-contact-form]");
 const formNote = document.querySelector("[data-form-note]");
+const submitQuote = document.querySelector("[data-submit-quote]");
 const videoLightbox = document.querySelector("[data-video-lightbox]");
 const videoPlayer = document.querySelector("[data-video-player]");
 const videoHeading = document.querySelector("[data-video-heading]");
@@ -28,10 +29,62 @@ nav.addEventListener("click", (event) => {
   navToggle.setAttribute("aria-expanded", "false");
 });
 
+function setFormMessage(message, isSuccess = false) {
+  formNote.textContent = message;
+  formNote.classList.toggle("is-success", isSuccess);
+}
+
+function buildQuotePayload() {
+  const rawData = new FormData(form);
+  const payload = new URLSearchParams();
+
+  payload.append("name", rawData.get("name") || "");
+  payload.append("contact", rawData.get("contact") || "");
+  payload.append("address", rawData.get("address") || "");
+  payload.append("bill", rawData.get("bill") || "");
+  payload.append("roof_type", rawData.get("need") || "");
+  payload.append("message", rawData.get("message") || "");
+  payload.append("_subject", rawData.get("_subject") || "New Dazzler Renewables quote request");
+  payload.append("source", rawData.get("source") || "Dazzler Renewables website");
+
+  return payload;
+}
+
+async function submitQuoteRequest() {
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  submitQuote.disabled = true;
+  submitQuote.textContent = "Sending...";
+  setFormMessage("Sending your quote request...");
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: buildQuotePayload().toString(),
+    });
+
+    if (!response.ok) throw new Error("Formspree submission failed");
+
+    form.reset();
+    setFormMessage("Thanks. Your quote request was sent and our Alberta solar team will follow up.", true);
+  } catch (error) {
+    setFormMessage("Sorry, the request could not be sent. Please email info@dazzlerrenewables.com directly.");
+  } finally {
+    submitQuote.disabled = false;
+    submitQuote.textContent = "Request Free Quote";
+  }
+}
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  formNote.textContent = "Thanks. Our Alberta solar team will review the details and follow up with a practical estimate.";
-  formNote.classList.add("is-success");
+  submitQuoteRequest();
 });
 
 document.addEventListener("click", (event) => {

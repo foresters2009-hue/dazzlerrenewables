@@ -449,11 +449,7 @@ p {
   margin-top: 26px;
   margin-right: auto;
   margin-left: auto;
-  padding: 22px;
-  background: rgba(255, 255, 255, 0.86);
-  border: 1px solid rgba(7, 59, 115, 0.12);
-  border-radius: var(--radius);
-  box-shadow: 0 16px 42px rgba(7, 59, 115, 0.1);
+  padding: 0;
 }
 
 .logo-panel img {

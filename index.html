@@ -452,14 +452,14 @@
             <address class="contact-list">
               <span><strong>Portal</strong> Free quote request and installer-built site review</span>
               <span><strong>Phone</strong> +1 (365) 888-2840</span>
-              <span><strong>Email</strong> quotes@dazzlerrenewables.com</span>
+              <span><strong>Email</strong> info@dazzlerrenewables.com</span>
               <span><strong>Address</strong> 330 5th Avenue SW, Suite 1800, Calgary, Alberta T2P 0L4, Canada</span>
               <span><strong>Service Area</strong> Calgary and surrounding communities</span>
               <span><strong>Response</strong> Project review and next-step guidance</span>
             </address>
           </div>
 
-          <form class="contact-form" data-contact-form>
+          <form class="contact-form" action="https://formspree.io/f/mvzydzeb" method="POST" data-contact-form novalidate>
             <label>
               Name
               <input type="text" name="name" placeholder="Jane Smith" required>
@@ -489,7 +489,9 @@
               Notes
               <textarea name="message" rows="5" placeholder="Add timing, roof notes, battery interest, EV charging, or questions."></textarea>
             </label>
-            <button class="btn btn-primary full" type="submit">Request Free Quote</button>
+            <input type="hidden" name="_subject" value="New Dazzler Renewables quote request">
+            <input type="hidden" name="source" value="Dazzler Renewables website">
+            <button class="btn btn-primary full" type="submit" data-submit-quote>Request Free Quote</button>
             <p class="form-note" data-form-note>Send the project details and our Alberta solar team will follow up with a practical estimate.</p>
           </form>
         </div>

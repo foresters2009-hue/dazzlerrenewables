@@ -15,9 +15,6 @@
       <path d="M178 353 286 57h167L344 353H178Z"/>
     </clipPath>
   </defs>
-
-  <rect width="760" height="640" fill="#fff"/>
-
   <g aria-hidden="true">
     <path fill="url(#side)" d="M418 74h119v279H382v-53h56V156h-62l42-82Z"/>
     <path fill="#fff" d="M431 156h7v144h-56l49-144Z"/>
