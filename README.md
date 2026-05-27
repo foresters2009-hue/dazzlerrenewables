@@ -1,6 +1,6 @@
 # Dazzler Renewables
 
-Static website for Dazzler Renewables, an engineer-led solar company with an in-house installation crew.
+Static website for Dazzler Renewables, an installer-built Alberta residential solar company with real rooftop installation experience.
 
 The site is designed as a polished solar quote portal with compressed project photos, stream-ready video previews, a refined project icon, and responsive layouts for desktop and mobile.
 

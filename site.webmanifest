@@ -1,6 +1,6 @@
 {
   "name": "Dazzler Renewables",
-  "short_name": "Dazzler",
+  "short_name": "Dazzler Solar",
   "icons": [
     {
       "src": "assets/brand/icon-192.png",
@@ -15,7 +15,7 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "#083347",
+  "theme_color": "#002653",
   "background_color": "#ffffff",
   "display": "standalone"
 }

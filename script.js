@@ -30,7 +30,7 @@ nav.addEventListener("click", (event) => {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  formNote.textContent = "Thanks. Our technical solar team will review the details and follow up with your estimate.";
+  formNote.textContent = "Thanks. Our Alberta solar team will review the details and follow up with a practical estimate.";
   formNote.classList.add("is-success");
 });
 
