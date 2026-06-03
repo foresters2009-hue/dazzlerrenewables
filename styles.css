@@ -452,6 +452,7 @@ p {
 .logo-panel img {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .local-proof {
@@ -728,6 +729,10 @@ p {
   min-height: 460px;
   object-fit: cover;
   transition: transform 280ms ease;
+}
+
+.project-card.no-distort img {
+  object-fit: contain;
 }
 
 .project-card::after {

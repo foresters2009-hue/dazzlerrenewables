@@ -1,4 +1,5 @@
 # Local raw source media. Optimized web assets live under assets/.
+/1/
 /*.MOV
 /*.mov
 /*.MP4
@@ -19,3 +20,4 @@
 # OS/editor noise.
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
