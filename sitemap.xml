@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://dazzlerrenewables.com/</loc>
+    <loc>https://www.dazzlerrenewables.com/</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.dazzlerrenewables.com/assets/images/hero-rooftop-solar.jpg</image:loc>
+      <image:title>Residential rooftop solar installation on an Alberta home</image:title>
+      <image:caption>Calgary and Alberta residential solar installation by Dazzler Renewables</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dazzlerrenewables.com/assets/images/2.jpg</image:loc>
+      <image:title>Clean South Array</image:title>
+      <image:caption>Large residential rooftop solar array</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dazzlerrenewables.com/assets/images/3.jpg</image:loc>
+      <image:title>Two-Plane Production</image:title>
+      <image:caption>Residential solar array across two roof faces</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dazzlerrenewables.com/assets/images/5.jpg</image:loc>
+      <image:title>Complex Roof, Clean Lines</image:title>
+      <image:caption>Solar installation on a complex roof line</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dazzlerrenewables.com/assets/images/roof-closeup.jpg</image:loc>
+      <image:title>Close-up residential roof view before solar installation</image:title>
+      <image:caption>Residential roof detail before solar installation</image:caption>
+    </image:image>
   </url>
 </urlset>

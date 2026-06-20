@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dazzlerrenewables.com/sitemap.xml
+Sitemap: https://www.dazzlerrenewables.com/sitemap.xml
